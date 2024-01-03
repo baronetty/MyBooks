@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31BAB662B45A47F009044D5 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BAB652B45A47F009044D5 /* Quote.swift */; };
+		B31BAB682B45A69B009044D5 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BAB672B45A69B009044D5 /* QuotesListView.swift */; };
+		B34B6EE12B42F73400FA1526 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B6EE02B42F73400FA1526 /* BookList.swift */; };
+		B3C35E6A2B419B7F00809397 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C35E692B419B7E00809397 /* BookSamples.swift */; };
+		B3C35E6C2B41A26600809397 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C35E6B2B41A26600809397 /* PreviewContainer.swift */; };
 		BB698DE02ACC90C200FF0A6C /* MyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB698DDF2ACC90C200FF0A6C /* MyBooksApp.swift */; };
 		BB698DE22ACC90C200FF0A6C /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB698DE12ACC90C200FF0A6C /* BookListView.swift */; };
 		BB698DE42ACC90C300FF0A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB698DE32ACC90C300FF0A6C /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31BAB652B45A47F009044D5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B31BAB672B45A69B009044D5 /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
+		B34B6EE02B42F73400FA1526 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		B3C35E692B419B7E00809397 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
+		B3C35E6B2B41A26600809397 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 		BB698DDC2ACC90C200FF0A6C /* MyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB698DDF2ACC90C200FF0A6C /* MyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksApp.swift; sourceTree = "<group>"; };
 		BB698DE12ACC90C200FF0A6C /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
@@ -61,10 +71,13 @@
 			children = (
 				BB698DDF2ACC90C200FF0A6C /* MyBooksApp.swift */,
 				BB698DE12ACC90C200FF0A6C /* BookListView.swift */,
+				B34B6EE02B42F73400FA1526 /* BookList.swift */,
 				BB698DEF2ACCA62100FF0A6C /* NewBookView.swift */,
 				BB698DF12ACCC94900FF0A6C /* EditBookView.swift */,
 				BB698DF32ACCCED800FF0A6C /* RatingsView.swift */,
 				BB698DED2ACC90DD00FF0A6C /* Book.swift */,
+				B31BAB652B45A47F009044D5 /* Quote.swift */,
+				B31BAB672B45A69B009044D5 /* QuotesListView.swift */,
 				BB698DE32ACC90C300FF0A6C /* Assets.xcassets */,
 				BB698DE52ACC90C300FF0A6C /* Preview Content */,
 			);
@@ -75,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				BB698DE62ACC90C300FF0A6C /* Preview Assets.xcassets */,
+				B3C35E692B419B7E00809397 /* BookSamples.swift */,
+				B3C35E6B2B41A26600809397 /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -149,12 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C35E6A2B419B7F00809397 /* BookSamples.swift in Sources */,
 				BB698DF02ACCA62100FF0A6C /* NewBookView.swift in Sources */,
 				BB698DF42ACCCED800FF0A6C /* RatingsView.swift in Sources */,
+				B34B6EE12B42F73400FA1526 /* BookList.swift in Sources */,
 				BB698DF22ACCC94900FF0A6C /* EditBookView.swift in Sources */,
 				BB698DE22ACC90C200FF0A6C /* BookListView.swift in Sources */,
 				BB698DE02ACC90C200FF0A6C /* MyBooksApp.swift in Sources */,
+				B3C35E6C2B41A26600809397 /* PreviewContainer.swift in Sources */,
+				B31BAB662B45A47F009044D5 /* Quote.swift in Sources */,
 				BB698DEE2ACC90DD00FF0A6C /* Book.swift in Sources */,
+				B31BAB682B45A69B009044D5 /* QuotesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
