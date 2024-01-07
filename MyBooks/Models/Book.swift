@@ -1,12 +1,7 @@
 //
 // Created for MyBooks
 // by  Stewart Lynch on 2023-10-03
-//
-// Follow me on Mastodon: @StewartLynch@iosdev.space
-// Follow me on Threads: @StewartLynch (https://www.threads.net)
-// Follow me on X: https://x.com/StewartLynch
-// Subscribe on YouTube: https://youTube.com/@StewartLynch
-// Buy me a ko-fi:  https://ko-fi.com/StewartLynch
+
 
 
 import SwiftUI
@@ -26,6 +21,11 @@ class Book {
     var recommendedBy: String = ""
     @Relationship(deleteRule: .cascade)
     var quotes: [Quote]?
+    @Relationship(inverse: \Genre.books)
+    var genres: [Genre]?
+    
+    @Attribute(.externalStorage)
+    var bookCover: Data?
     
     init(
         title: String,
@@ -67,7 +67,7 @@ enum Status: Int, Codable, Identifiable, CaseIterable {
     var id: Self {
         self
     }
-    var descr: String {
+    var descr: LocalizedStringResource {
         switch self {
         case .onShelf:
             "On Shelf"
